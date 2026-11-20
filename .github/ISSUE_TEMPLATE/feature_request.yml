@@ -1,0 +1,20 @@
+name: Feature request
+description: Propose a change or a new capability
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and why is it hard today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Your preferred solution. Changes to wire contracts / protocol / security model will need an ADR.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

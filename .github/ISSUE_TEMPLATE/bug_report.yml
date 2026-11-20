@@ -1,0 +1,40 @@
+name: Bug report
+description: Something does not work as documented
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Security issue? Stop — use **Security → Report a vulnerability** instead (see SECURITY.md)."
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: "`<binary> --version` or `git rev-parse --short HEAD`"
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, arch, install method (release binary / cargo build / package)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Smallest reproduction. Redact tokens, keys and personal data from logs.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      render: text
