@@ -6,7 +6,7 @@
 |---|---|---|
 | [ulei](https://github.com/pasekahq/ulei) | Agent harness: engine, Telegram channel, inbox. Contracts C1–C9 | pre-alpha |
 | [quota-balancer (qb)](https://github.com/pasekahq/quota-balancer) | Quota balancer and model gateway: subscriptions and keys behind one endpoint, fallback chains, spend caps | alpha |
-| paseka-gate (not published yet) | Consent firewall between your agent and other people's agents (A2A): hash-bound mandates, owner approval | design / M1 |
+| [paseka-gate](https://github.com/pasekahq/paseka-gate) | Consent firewall between your agent and other people's agents (A2A): hash-bound mandates, owner approval | pre-alpha (design / M1) |
 | [ummanu](https://github.com/pasekahq/ummanu) | Development module: projects, sprints, worker/reviewer heads, board | in daily use |
 
 ### Principles
