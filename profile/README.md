@@ -47,4 +47,4 @@ The longer version, with what moved where, what is in progress and why, is in
 - Found a vulnerability? Report it privately, see
   [SECURITY](https://github.com/pasekahq/.github/blob/main/SECURITY.md).
 
-Maintained by [@vladmesh](https://github.com/vladmesh).
+Maintained by [@vladmesh](https://github.com/vladmesh). He takes part-time contracts on LLM agents and evals: [vladmesh.dev/en/llm-systems](https://vladmesh.dev/en/llm-systems/).
